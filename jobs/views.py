@@ -6,7 +6,7 @@ from django.views.generic import TemplateView, ListView
 
 
 class HomeView(ListView):
-    template_name = "jobs/index.html"
+    template_name = "index.html"
     model= Job
     context_object_name= 'jobs'
     paginate_by = 3
